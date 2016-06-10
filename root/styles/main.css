@@ -9,15 +9,12 @@ body {
     line-height: 1.4;
     font-family:'Source Sans Pro', sans-serif;
 }
-h1, h2,  p {
-	padding-right: 15px;
-	padding-left: 15px; 
-}
-h1, h2 {
+h1, h2, h3 {
+	padding: 0 15px;
     font-weight: bold;
 }
 p {
-	padding-bottom:10px;
+	margin:15px;
 }
 a:link, a:visited {
 	color: #0B486B;
@@ -41,10 +38,10 @@ header h1 {
 article {
 	background-color: #FFFFFF;
 }
-article h1 {
+article h2 {
 	font-size: 36px;
 }
-article h2 {
+article h3 {
 	font-size: 24px;
 	margin-bottom: 0;
 	color: #70321b;
@@ -54,7 +51,7 @@ aside {
 	color: #fff;
 	padding: 10px 0;
 }
-aside h1 {
+aside h2 {
 	font-size: 24px;
 	border-bottom: solid 2px #fff;
 }
@@ -89,7 +86,7 @@ figcaption {
         float: right;
         width: 37.5%;
     }
-    aside h1 {
+    aside h2 {
         width: 260px; 
     }
     header h1 {
